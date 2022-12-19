@@ -90,4 +90,5 @@ It is possible to obtain a distance fluctuation matrix average on protein domain
 The script requires an input file with the borders of the protein blocks defined by the user, in the form of two columns: the first with the lower limit and the second with the upper limit.
 
 # References
-Morra, G.; Potestio, R.; Micheletti, C.; Colombo, G., Corresponding Functional Dynamics across the Hsp90 Chaperone Family: Insights from a Multiscale Analysis of MD Simulations, PLOS Computational Biology 8(3): e1002433. https://doi.org/10.1371/journal.pcbi.1002433
+Morra, G.; Potestio, R.; Micheletti, C.; Colombo, G., Corresponding Functional Dynamics across the Hsp90 Chaperone Family: Insights from a Multiscale Analysis of MD Simulations, PLOS Computational Biology 8(3): e1002433. 
+https://doi.org/10.1371/journal.pcbi.1002433
