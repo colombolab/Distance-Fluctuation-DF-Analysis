@@ -1,6 +1,6 @@
 # Distance-Fluctuation (DF) Analysis
 
-What DF matrices are?
+
 The analysis of the results of a MD simulation can performed using the Distance Fluctuation matrices (DF), based on the Coordination Propensity hypothesis:
 
 low CP values, corresponding to low pair-distance fluctuations, highlight groups of residues that move in a mechanically coordinated way.
