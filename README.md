@@ -3,14 +3,11 @@
 What DF matrices are?
 The analysis of the results of a MD simulation can performed using the Distance Fluctuation matrices (DF), based on the Coordination Propensity hypothesis:
 
-![CodeCogsEqn-58-2](https://user-images.githubusercontent.com/70646674/208474307-0deb70ce-255e-47fc-8b92-cfecb1ab873d.png)
-
-
 low CP values, corresponding to low pair-distance fluctuations, highlight groups of residues that move in a mechanically coordinated way.
 
 # How to use the script
 
-• Requisites
+• _Requisites_
 
   - Python 3.0 (or newer version)
 
@@ -18,7 +15,7 @@ low CP values, corresponding to low pair-distance fluctuations, highlight groups
 
   - Scipy
 
-• Usage
+• _Usage_
 
 The script can analyze a MD trajectory and identify the coordinated motions between residues. It can then filter the output matrix based on the distance to identify long-range coordinated motions.
 
@@ -28,46 +25,7 @@ For more information run:
 
 python3 distance_fluctuation.py -h
 
-optional arguments:
-  -h, --help            show this help message and exit
 
-Required arguments:
-  -ext {pdb,xyz}, --file_ext {pdb,xyz}
-                        Input trajectory file iformat (options: .pdb or .xyz)
-  -n N_AA, --n_aa N_AA  Number of aminoacids in each frame of the .pdb
-                        trajectory
-
-Optional arguments:
-  -i IN_NAME, --in_name IN_NAME
-                        Name of the trajectory file (default: trj)
-  -s S_FRAME, --s_frame S_FRAME
-                        Index of the initial frame (default = 0)
-  -e E_FRAME, --e_frame E_FRAME
-                        Index of the last frame (default = end)
-  -c CUTOFF, --cutoff CUTOFF
-                        Cutoff for the distance fluctuation analysis (default = 5)
-  -t TOLERANCE, --tolerance TOLERANCE
-                        Tolerance for the distance fluctuation analysis (default = 0)
-  -p {all,c-a}, --pdb_type {all,c-a}
-                        Type of pdb file submitted (only C-alpha, all protein atoms)
-  -l {s,seq,v,volume}, --local {s,seq,v,volume}
-                        Type of local cutoff used, sequence or volume (default = seq)
-  -r RADIUS, --radius RADIUS
-                        Radius of the area cutoff (default = 7A)
-  -rs RES_START, --res_start RES_START
-                        Starting residue if the PDB does not start with res.num. 1
-  -ro RMS_OUT, --rms_out RMS_OUT
-                        RMS distance output filename (without extension)
-  -ao AVG_OUT, --avg_out AVG_OUT
-                        Average distance output filename (without extension)
-  -so SEQ_OUT, --seq_out SEQ_OUT
-                        Profile sequence output filename (without extension)
-  -da DIST_AN, --dist_an DIST_AN
-                        Distance analysis output filename (without extension)
-  --blocks BLOCKS       File with domains borders
-
-  -rb RMS_B_OUT, --rms_b_out RMS_B_OUT
-                        RMS distance blocks output filename
 
 # Read the output
 
