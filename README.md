@@ -1,4 +1,4 @@
-# Distance-Flusctuation (DF) Analysis
+# Distance-Fluctuation (DF) Analysis
 
 What DF matrices are?
 The analysis of the results of a MD simulation can performed using the Distance Fluctuation matrices (DF), based on the Coordination Propensity hypothesis:
