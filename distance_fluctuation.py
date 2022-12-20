@@ -30,6 +30,11 @@ def help():
                                    ## Distance Fluctuation Analysis v 2.1 (Python) ##
                                    ##################################################
                                    Program developed by Giorgio Colombo Group
+                             ---------------------------------------------------------------------------------------
+
+                                         Copyright (c) 2022, Giorgio Colombo
+		
+                                   This work is licensed under a Apache 2.0 Licence
 
                              ---------------------------------------------------------------------------------------
 
